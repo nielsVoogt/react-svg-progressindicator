@@ -1,6 +1,30 @@
 # react-svg-progressindicator
 A circular progress indicator
 
+# Usage
+
+SVG progressindicator defaults to 100x100px with a 5px stroke when only ```percentage``` is set.
+
+```
+<ProgressSvg
+    strokeWidth="5"
+    circleSize="200"
+    percentage="99"
+    speed="2"
+    showpercentage
+/>
+```
+
+# Options
+
+| Name  | Type | Required |
+| ------------- | ------------- | ------------- |
+| percentage | integer  | yes |
+| strokeWidth | integer  | no |
+| circleSize | integer  | no |
+| speed | integer  | no |
+| showpercentage  | ? | no |
+
 
 # MIT License
 
