@@ -23,7 +23,7 @@ SVG progressindicator defaults to 100x100px with a 5px stroke when only ```perce
 | strokeWidth | integer  | no |
 | circleSize | integer  | no |
 | speed | integer  | no |
-| showpercentage  | ? | no |
+| showpercentage  | option | no |
 
 
 # MIT License
